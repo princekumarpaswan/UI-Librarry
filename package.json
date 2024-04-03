@@ -1,0 +1,23 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "test UI",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prince",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "react": "^18.2.0",
+    "react-native": "^0.73.6",
+    "rollup": "^4.14.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.4.3"
+  }
+}
