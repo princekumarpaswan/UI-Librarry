@@ -7,7 +7,7 @@ interface MyButtonProps {
 }
 
 const MyButton: React.FC<MyButtonProps> = ({ text }) => (
-  <View>
+  <View style={{ backgroundColor: "red" }}>
     <Button title={text} />
   </View>
 );
